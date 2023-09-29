@@ -52,15 +52,21 @@ Complete the following tests in `test/PetPark.t.sol`
 
 ## Evaluation
 
--   Create a fork of this repo
+-   Clone this template repo, by clicking on `Use this template` and then selecting `Create a new repository`
 
--   Clone the forked repo. Use the flag `--recurse-submodules` to clone the forked repo along with the submodules. You can use the following command after replacing the `CLONE_URL` with the clone url of your repo
+-   Give a name to this repo and set visibility to `Private`
+
+-   Add us as collaborators
+    - Go to the `Settings` tab
+    - Select `Collaborators` from the left pane
+    - Click `Add People`
+    - Add username `shubham-kanodia` as a collaborator
+
+-   Clone the repo you just created. Use the flag `--recurse-submodules` to clone the forked repo along with the submodules. You can use the following command after replacing the `CLONE_URL` with the clone url of your repo
 
     ```
     git clone --recurse-submodules CLONE_URL
     ```
-
--   Go to your forked repo and under `Actions` make sure that github actions on forked repo are enabled.
 
 -   Install `forge-std` library using the below command
     ```
@@ -74,14 +80,14 @@ Complete the following tests in `test/PetPark.t.sol`
     forge test
     ```
 
--   Push your changes to `main` branch of your forked repo to trigger the github workflow that runs these tests.
+-   Push your changes to `main` branch of your repo to trigger the GitHub workflow that runs these tests.
 
 -   Submit your name, email and link to your forked repo [here](https://airtable.com/apppwJwKgRGomJLLY/shrhkY0IVT8zxiM0Z).
 
 ## Note
 
--   The error strings (mentioned in revert statement) must be same as the ones mentioned in tests.
--   Use modifiers, structs where appropriate.
+-   The error strings (mentioned in the revert statement) must be the same as the ones mentioned in tests.
+-   Use modifiers and structs where appropriate.
 
 ## Reference
 
